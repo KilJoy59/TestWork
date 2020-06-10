@@ -1,0 +1,2 @@
+create table students (id bigint not null auto_increment, name varchar(255) not null, passport varchar(10) not null, primary key (id));
+alter table students add constraint UK_evlvwgrvjacvq7g3ac77a4pf8 unique (passport);
